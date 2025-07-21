@@ -1,0 +1,9 @@
+/* Import AOS animation styles first */
+/* @import 'aos/dist/aos.css'; */
+
+/* Tailwind directives must follow imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your custom styles below if needed */
