@@ -57,7 +57,7 @@ const teamMembers = [
   {
     name: "Ravisankar",
     role: "Developer",
-    img: "c:\Users\Stackvil\Downloads\ecfaffa1-c361-4949-83d8-362e22681e0c.png",
+    img: "ravi.jpeg",
     overview: "Ravisankar is passionate about crafting elegant solutions and ensuring top-notch performance across all digital platforms.",
     strengths: [
       "System design and scalability",
