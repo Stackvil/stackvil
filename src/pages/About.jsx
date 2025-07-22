@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Kiran",
     role: "Manager",
-    img: "/images/kiran.jpg", // <-- add your image file in public/images/
+    img: "kiran.jpeg",
     overview: "Kiran brings vision and organization to the team, ensuring projects are delivered with efficiency and precision.",
     strengths: [
       "Strategic planning and execution",
@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: "Karthik",
     role: "Team Lead",
-    img: "/images/karthik.jpg",
+    img: "karthik.jpeg",
     overview: "Karthik drives technical excellence, mentoring developers and leading the team to solve complex challenges.",
     strengths: [
       "Full-stack web and mobile development",
@@ -40,7 +40,7 @@ const teamMembers = [
   {
     name: "Kishore",
     role: "Developer",
-    img: "/images/kishore.jpg",
+    img: "kishore.jpeg",
     overview: "Kishore specializes in building robust applications with a strong focus on performance, security, and user experience.",
     strengths: [
       "Front-end and back-end development",
@@ -87,6 +87,40 @@ const teamMembers = [
       "Integrated AI-powered recommendation systems into e-commerce projects.",
       "Championed test automation across the team, improving code reliability."
     ]
+  },
+  {
+    name: "Durgarao",
+    role: "Full Stack Developer",
+    img: "durgarao.jpeg",
+    overview: "Durgarao is a nuanced technologist focused on developing robust API systems and seamless front-end experiences.",
+    strengths: [
+      "RESTful API development",
+      "JavaScript, Node.js, React.js",
+      "AWS cloud deployment",
+      "Automated testing with Jest and Mocha"
+    ],
+    highlights: [
+      "Designed and implemented scalable APIs used by thousands of users.",
+      "Deployed full-stack applications on AWS EC2, Lambda, and S3.",
+      "Improved code coverage across key projects by more than 75%."
+    ]
+  },
+  {
+    name: "Sonali",
+    role: "Frontend Engineer",
+    img: "sonali.jpeg",
+    overview: "Sonali creates engaging, responsive user interfaces and champions accessibility in modern web applications.",
+    strengths: [
+      "React.js, Tailwind CSS, TypeScript",
+      "Responsive design and adaptive UI patterns",
+      "Web accessibility (WCAG) standards",
+      "Version control and Git workflows"
+    ],
+    highlights: [
+      "Built beautiful, responsive UIs that improved user retention by 25%.",
+      "Led frontend redesign for a major client portal to enhance UX.",
+      "Actively contributed to design systems and component libraries."
+    ]
   }
 ];
 
@@ -94,25 +128,29 @@ const About = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  
+
   return (
     <section className="pt-20 p-6 min-h-screen bg-white" data-aos="fade-up" aria-labelledby="about-title">
       <div className="max-w-6xl mx-auto">
         <h2 id="about-title" className="text-3xl font-bold text-blue-700 mb-6">About Stackvil</h2>
+        
         <p className="text-gray-700 text-lg leading-7 max-w-4xl">
           <strong>Stackvil Solutions</strong> is a team of passionate and skilled developers committed to building
-          high-performance, scalable, and user-centric digital experiences. We specialize in delivering
-          end-to-end solutions for <span className="text-blue-600 font-semibold">web development</span>,{" "}
-          <span className="text-blue-600 font-semibold">mobile apps</span>,{" "}
-          <span className="text-blue-600 font-semibold">AI integrations</span>, and{" "}
-          <span className="text-blue-600 font-semibold">machine learning systems</span>.
+          high-performance, scalable, and user-centric digital experiences. We specialize in delivering end-to-end
+          solutions for 
+          <span className="text-blue-600 font-semibold"> web development</span>, 
+          <span className="text-blue-600 font-semibold"> mobile apps</span>, 
+          <span className="text-blue-600 font-semibold"> AI integrations</span>, and 
+          <span className="text-blue-600 font-semibold"> machine learning systems</span>.
         </p>
+
         <p className="text-gray-700 text-lg leading-7 mt-4 max-w-4xl">
           At Stackvil, innovation meets precision. We don’t just write code—we solve real business problems
-          with cutting-edge technologies, creative thinking, and agile delivery models.
-          Whether you're a startup looking to launch or an enterprise seeking digital transformation,
-          Stackvil Solutions is your trusted technology partner.
+          with cutting-edge technologies, creative thinking, and agile delivery models. Whether you're a startup
+          looking to launch or an enterprise seeking digital transformation, Stackvil Solutions is your trusted
+          technology partner.
         </p>
+
         <p className="text-gray-700 text-lg leading-7 mt-4 max-w-4xl">
           Our mission is simple: <span className="italic text-blue-600">"Build, Innovate, and Empower."</span> Let's create something impactful together.
         </p>

@@ -9,6 +9,14 @@ const Services = () => {
         <li>UI/UX Design</li>
         <li>Cloud Integration</li>
         <li>Custom Dashboards</li>
+        <li>Mobile App Development</li>
+        <li>AI and Machine Learning Solutions</li>
+        <li>API Development</li>
+        <li>DevOps and CI/CD</li>
+        <li>Finetuning</li>
+        <li>Data Analytics</li>
+        <li>Performance Optimization</li>
+        
       </ul>
     </div>
   );
