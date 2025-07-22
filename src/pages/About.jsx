@@ -74,7 +74,7 @@ const teamMembers = [
   {
     name: "MANU",
     role: "Developer",
-    img: "/images/manu.jpg",
+    img: "manu.jpeg",
     overview: "Manu is passionate about innovation, leveraging the latest technologies to deliver impactful solutions for clients.",
     strengths: [
       "Mobile app development (React Native, Flutter)",
